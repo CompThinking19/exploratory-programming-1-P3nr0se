@@ -3,7 +3,7 @@
 
 # In[2]:
 
-
+#defining 'double' which is intended to multiply by two
 def double(sequence):
     result = []
     for element in sequence:
@@ -13,13 +13,13 @@ def double(sequence):
 
 # In[4]:
 
-
+#attempt to multiply variable by two
 double([4])
 
 
 # In[5]:
 
-
+#defining 'quadruple' which is intended to multiply variables by four
 def quadruple(sequence):
     result = []
     for element in sequence:
@@ -29,24 +29,20 @@ def quadruple(sequence):
 
 # In[6]:
 
-
+#first attempt to multiply listed numbers by four
 quadruple([1,3,5,7,9])
 
 
 # In[7]:
 
-
+#second attempt to multiply list by four
 quadruple([2,4,6,8,10])
 
 
 # In[10]:
 
-
+#attempt to multiply by four, with non integer variable
 quadruple([100,200,300,'you guys are gonna make me rich! '])
 
 
 # In[ ]:
-
-
-
-
