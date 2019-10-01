@@ -43,6 +43,6 @@ quadruple([2,4,6,8,10])
 
 #attempt to multiply by four, with non integer variable
 quadruple([100,200,300,'you guys are gonna make me rich! '])
-
+# Notably, I do not know how to run things in Atom, but when called, the sequence does run in Jupyter.
 
 # In[ ]:
